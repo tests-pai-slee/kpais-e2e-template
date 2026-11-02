@@ -1,0 +1,9 @@
+name: dev-deploy fixture
+on: [workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Fixture only; no deployment"

@@ -1,0 +1,10 @@
+name: 검증 완료
+on: [pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  check:
+    name: 검증 완료
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Fixture check only"

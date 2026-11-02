@@ -1,2 +1,3 @@
-# kpais-e2e-template
-Local kpais E2E fixtures; sample content only
+# kpais E2E fixture
+
+Disposable sample content for local integration tests. No application code or credentials.
